@@ -1,0 +1,12 @@
+# Entornos y caché
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datos del condominio: NUNCA subir al repositorio (nombres, RUT, montos)
+*.xlsx
+*.xls
+*.csv
+datos/*
+!datos/.gitkeep
